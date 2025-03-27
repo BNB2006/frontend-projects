@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guess The number</h1>
+    <p>I'm thinking of a number between 1 and 100
+        You have ten guesses Can you figure out what it is?</p>
+    <div class="container ">
+    <div class="canvas box-shadow">
+        <div class="box">
+        <h3>Try to guess the number I am thinking of!</h3>
+        <input type="text" id="guessInput" placeholder="Enter a number ⌨"><br>
+        <button id="submit">Submit</button>
+        <button id="restartBtn">Restart</button>
+    </div>
+    </div>
+    <div class="hint box-shadow">
+        <p>score:<span id="score">0</span></p>
+        <div class="message" id="message"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
